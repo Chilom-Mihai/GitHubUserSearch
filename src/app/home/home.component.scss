@@ -1,0 +1,61 @@
+.bg-dark {
+  background-color: #f6f8ff;
+}
+
+.dark .bg-dark {
+  background-color: #141d2f;
+}
+
+/* Dark theme styles */
+.dark {
+  background-color: #141d2f;
+  color: white;
+}
+
+.dark .bg-white2 {
+  background-color: #1e2a47;
+  color: white;
+}
+
+.dark .bg-whiteGray {
+  background-color: #141d2f;
+  color: white;
+}
+
+.paragraph {
+  color: #4b6a9b;
+}
+
+.dark .paragraph {
+  color: white;
+}
+
+.social-media {
+  color: #4b6a9b;
+}
+
+.dark .social-media {
+  color: white;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark input {
+  background-color: #1e2a47;
+  color: white;
+}
+
+.dark input::placeholder {
+  color: #fff;
+}
+
+input {
+  font-size: 2rem;
+}
+
+input::placeholder {
+  font-size: 2rem;
+}

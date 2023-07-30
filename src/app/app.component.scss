@@ -1,0 +1,18 @@
+.bg-red {
+  background-color: pink;
+  color: blue;
+}
+.dark .bg-red {
+  background-color: orange;
+  color: white;
+}
+
+.salut {
+  @apply bg-darkGrayBlack;
+  @apply text-white2;
+}
+
+.dark .salut {
+  @apply bg-green-500;
+  @apply text-lightBlue;
+}
